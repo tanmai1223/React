@@ -1,0 +1,17 @@
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  
+}
+button{
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: large;
+}
+input{
+  width: 250px;
+}
