@@ -21,7 +21,7 @@ function Films({ genre }) {
 
   useEffect(() => {
     fetchFilms(); // ✅ FIXED typo
-  }, [genre]);
+  });
 
   return (
     <div className={style.filmsRow}>
